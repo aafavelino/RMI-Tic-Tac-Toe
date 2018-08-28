@@ -21,7 +21,7 @@ public class Jogo {
 		tabuleiro = new Tabuleiro();
 	}
 	
-	public void inciciarJogo() {
+	public void iniciarJogo() {
 		carregarJogadores();
 		while (jogar());
 	}
